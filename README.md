@@ -12,11 +12,11 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://{127.0.0.1:5500/index.html}">
       Solution
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-challenge}">
+    <a href="https://{devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht}">
       Challenge
     </a>
   </h3>
@@ -86,7 +86,7 @@ $ npm install
 $ npm start
 ```
 
-## Acknowledgements
+
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
@@ -96,6 +96,6 @@ $ npm start
 
 ## Contact
 
-- Website [your-website.com](https://www.linkedin.com/in/jerangel1/)
+- Website [Linkedin](https://www.linkedin.com/in/jerangel1/)
 - GitHub [@jerangel1](https://github.com/jerangel1)
 - Twitter [@jerangel1](https://twitter.com/jerangel1)

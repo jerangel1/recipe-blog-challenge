@@ -1,0 +1,204 @@
+* {
+  max-width: 1440px;
+  max-height: 2989px;
+  margin-top: -3px;
+}
+
+/*div,
+section {
+  border: 1px dotted red;
+}
+*/
+/* 1px de ancho y punteado en color negro (#000) */
+
+.header {
+  width: 1366px;
+  height: 728px;
+
+  display: grid;
+  grid:
+    "TitleRecipe" 74px "DescriptionRecipe" 51px "RecipeImg" 464px / 969px;
+  gap: 20px 10px;
+  justify-content: center;
+}
+
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;*/
+
+.TitleIngredients {
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(autofit, 1fr);
+  grid-template-columns: repeat(2, 600px);
+  justify-content: center;
+  gap: 10px;
+  margin-left: 95px;
+
+}
+.TitleIngredients h1{
+  color: var(--gray-1, #333);
+  font-family: 'Playfair Display', serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+white-space: nowrap;
+}
+.layout-GrahamCrackerCrust{
+  width: 1366px;
+  height: 768px;
+
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: 40px 500px;
+  gap: 10px;
+
+}
+.Details{
+width: 216px;
+height: 367px;
+flex-shrink: 0;
+border-radius: 12px;
+background: #FFF;
+box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
+}
+.Details h4 {
+  color: var(--gray-4, #BDBDBD);
+  font-family: 'Montserrat', sans-serif;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+.Details h5{
+  color: var(--orange, #F2994A);
+  font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+.TitleRecipe {
+  grid-area: TitleRecipe;
+  color: #000;
+  font-family: 'Playfair Display', serif;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+display: flex;
+align-items: center;
+}
+.TitleRecipe svg {
+  margin-right: 10px; 
+}
+
+.DescriptionRecipe {
+  grid-area: DescriptionRecipe;
+  color: var(--gray-2, #4F4F4F);
+  font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+font-style: italic;
+font-weight: 500;
+line-height: normal;
+display: flex;
+  align-items: baseline;
+
+}
+.DescriptionRecipe svg {
+  margin-right: 10px; 
+}
+
+
+.RecipeImg img {
+  width: 969px;
+  height: 464px;
+  border-radius: 12px;
+
+}
+.instructions{
+  margin-bottom: 800px;
+}
+.instructions h2{
+  color: var(--gray-1, #333);
+  font-family: 'Playfair Display', serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.layout-instructions{
+  width: 1366px;
+  height: 768px;
+
+  display: grid;
+  grid-template-rows: (7, 1fr);
+  grid-template-columns: 40px 440px;
+  gap: 30px;
+  margin-left: 210px;
+}
+
+.layout-Cheesecake h2{
+  color: var(--gray-1, #333);
+  font-family: 'Playfair Display', serif;
+font-size: 18px;
+font-style: italic;
+font-weight: 400;
+line-height: normal;}
+
+
+.layout-cheesecake {
+  width: 1366px;
+  height: 768px;
+
+  display: grid;
+  grid-template-rows: repeat(7, 1fr);
+  grid-template-columns: 40px 285px;
+  gap: 38px;
+  color: var(--gray-1, #333);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  /* 156.25% */
+}
+
+.Details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px; /* Espacio entre elementos */
+  max-width: 452px; /* (216px * 2 columnas) + (10px * 1 espacio entre columnas) */
+}
+
+/* Estilo del rectángulo */
+.rectangle {
+  width: 216px;
+  height: 367px;
+  flex-shrink: 0;
+  margin-left: 135px;
+  border-radius: 12px;
+  background: #FFF;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
+  box-sizing: border-box;
+}
+
+/* Estilo para los íconos y textos dentro de las columnas */
+.Details > div {
+  align-items: center;
+}
+
+.Details > div svg {
+  margin-right: px;
+}
+
+/* Estilo para los títulos y párrafos dentro de las columnas */
+.Details h4, .Details h5, .Details p {
+  margin: 0;
+  padding: 0;
+}
+
